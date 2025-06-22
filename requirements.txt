@@ -1,3 +1,4 @@
 gymnasium
 swig
-shimmy[gym-v21]
+matplotlib
+stable_baselines3
