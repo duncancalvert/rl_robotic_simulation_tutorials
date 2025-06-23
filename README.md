@@ -1,4 +1,7 @@
 # GRID Robotics Tutorials
  A repository of code tutorials for reinforcement learning using Gymnasium and the GRID robotics platform. 
 
- ![Lunar Lander](media/lunar_lander_gif.gif)
+ <p align="center">
+  <img src="media/lunar_lander_gif.gif?raw=true" alt="Lunar Lander"/>
+</p>
+
