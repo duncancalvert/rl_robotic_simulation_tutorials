@@ -1,4 +1,4 @@
-# GRID Robotics Tutorials
+# Reinforcement Learning & Robotic Simulation Tutorials
  A repository of code tutorials for reinforcement learning using Gymnasium and the GRID robotics platform. 
 
  <p align="center">
