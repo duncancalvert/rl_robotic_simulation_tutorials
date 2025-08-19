@@ -1,42 +1,37 @@
 # Core RL and Environment Libraries
-gymnasium[all]>=0.29.0
-gymnasium[mujoco]>=0.29.0
-mujoco>=2.3.0
-swig>=4.0.0
+gymnasium[all]
+gymnasium[mujoco]
+mujoco
+swig
 
 # Deep Learning Frameworks
-torch>=2.0.0
-torchvision>=0.15.0
-tensorflow>=2.12.0
+torch
+torchvision
+tensorflow
 
 # RL Algorithm Implementations
-stable-baselines3>=2.0.0
-sb3-contrib>=2.0.0
+stable-baselines3[extra]
 
 # Scientific Computing
-numpy>=1.24.0
-scipy>=1.10.0
-pandas>=2.0.0
+numpy
+scipy
+pandas
 
 # Visualization and Plotting
-matplotlib>=3.7.0
-seaborn>=0.12.0
-plotly>=5.15.0
-ipywidgets>=8.0.0
+matplotlib
+seaborn
+plotly
+ipywidgets
 
 # Jupyter and Interactive Development
-jupyter>=1.0.0
-notebook>=6.5.0
-ipykernel>=6.20.0
+jupyter
+notebook
+ipykernel
 
 # Additional Utilities
-tqdm>=4.65.0
-wandb>=0.15.0
-tensorboard>=2.12.0
-gymnasium[box2d]>=0.29.0
-gymnasium[atari]>=0.29.0
-gymnasium[accept-rom-license]>=0.29.0
-
-# Optional: For advanced robotics
-pybullet>=3.2.0
-robosuite>=1.4.0
+tqdm
+wandb
+tensorboard
+gymnasium[box2d]
+gymnasium[atari]
+gymnasium[accept-rom-license]

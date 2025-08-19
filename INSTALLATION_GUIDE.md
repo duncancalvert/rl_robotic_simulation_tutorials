@@ -3,7 +3,7 @@
 This guide will help you set up your environment for the RL course.
 
 ### **Python Version**
-- **Python**: 3.8+ (3.9+ recommended)
+- **Python**: 3.9+ (3.12 recommended, don't use Python 3.13+)
 - **Package Manager**: uv (recommended) or conda/pip
 
 ## Quick Start (Recommended)
@@ -17,15 +17,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Or using pip:
 pip install uv
 
-# Create a new project and virtual environment
-uv init rl_robotics
-cd rl_robotics
+# Create a virtual environment
+uv venv --python 3.12
 
 # Install dependencies
 uv pip install -r requirements.txt
-
-# Activate the virtual environment
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
 ### **Option 2: Using Conda (Alternative)**
