@@ -38,20 +38,6 @@ This course teaches reinforcement learning through hands-on experience with incr
 
 ---
 
-## 📚 Course Structure
-
-```
-├── 01_foundations/          # Basic RL concepts and tabular methods
-├── 02_deep_rl/              # Deep reinforcement learning algorithms
-├── 03_robotics/             # MuJoCo and robotics applications
-├── 04_advanced_topics/      # Multi-agent, hierarchical RL, etc.
-├── utils/                   # Common utilities and helper functions
-├── media/                   # GIFs, videos, and visualizations
-└── solutions/               # Complete solutions (for instructors)
-```
-
----
-
 ## Technical Requirements
 
 - **Python 3.8+**
@@ -105,6 +91,24 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Start with the first tutorial
 jupyter notebook ../01_foundations/01_cartpole_q_learning.ipynb
 ```
+
+---
+
+##  External Resources
+
+### **Documentation**
+- [Gymnasium](https://gymnasium.farama.org/): RL environment library
+- [MuJoCo](https://mujoco.readthedocs.io/): Physics simulation
+- [PyTorch](https://pytorch.org/docs/): Deep learning framework
+- [Stable-Baselines3](https://stable-baselines3.readthedocs.io/): RL implementations
+
+### **Research Papers** 📄
+- **Foundations**: Sutton & Barto RL textbook
+- **Deep RL**: DQN, PPO, SAC original papers
+- **Robotics**: Sim-to-real transfer literature
+- **Advanced**: Hierarchical RL, meta-learning papers
+
+---
 
 ## 🤝 Contributing
 
