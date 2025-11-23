@@ -3,7 +3,7 @@
 Welcome to an interactive journey through reinforcement learning (RL) with a focus on robotics applications! This repository is designed to take you from basic RL concepts to advanced deep reinforcement learning techniques using real-world robotics simulations.
 
 <p align="center">
-  <img src="media/lunar_lander_gif.gif?raw=true" alt="Lunar Lander" width="400"/>
+  <img src="media/gym_media/lunar_lander_gif.gif?raw=true" alt="Lunar Lander" width="400"/>
 </p>
 
 ## Course Summary
@@ -83,14 +83,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Create virtual environment and install dependencies
 uv init rl_robotics
 cd rl_robotics
-uv pip install -r ../requirements.txt
 
 # Activate the environment
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Start with the first tutorial
-jupyter notebook ../01_foundations/01_cartpole_q_learning.ipynb
-```
 
 ---
 
